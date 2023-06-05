@@ -124,6 +124,14 @@ Server=https://archive.archlinux.org/repos/{datetime.datetime.strftime(datetime.
 [extra]
 SigLevel = PackageRequired
 Server=https://archive.archlinux.org/repos/{datetime.datetime.strftime(datetime.datetime.today() - datetime.timedelta(days=2), '%Y/%m/%d')}/$repo/os/$arch
+
+[Redecorating-t2]
+Server = https://github.com/Redecorating/archlinux-t2-packages/releases/download/packages
+SigLevel = Optional TrustAll
+
+[arch-mact2]
+Server = https://mirror.funami.tech/arch-mact2/os/x86_64
+SigLevel = Never
 '''
 
 with open(f'.brunch-tmp/pacman.conf', 'w') as build_pacman_file:

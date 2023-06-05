@@ -14,7 +14,7 @@ dpkg_list = [
     'blend',
     'blend-web-store',
     'blendos-first-setup',
-    'jade-gui'
+    'jade-gui-t2'
 ]
 
 # AUR packages
@@ -33,7 +33,7 @@ aur_list = [
 # blendOS independent packages
 
 iblend_list = [
-    'blend-inst',
+    'blend-inst-t2',
     'blend-keyring',
     'filesystem-blend',
     'grub-blend',

@@ -1,5 +1,4 @@
 alsa-utils
-amd-ucode
 arch-install-scripts
 archinstall
 b43-fwcutter
@@ -8,7 +7,6 @@ bash
 bash-completion
 bind
 brltty
-broadcom-wl-dkms
 btrfs-progs
 cryptsetup
 dhclient
@@ -32,8 +30,8 @@ irssi
 less
 libfido2
 libusb-compat
-linux-zen
-linux-zen-headers
+linux-xanmod-t2
+linux-xanmod-t2-headers
 linux-atm
 linux-firmware
 linux-firmware-marvell
@@ -52,7 +50,7 @@ nbd
 ndisc6
 neovim
 nfs-utils
-nilfs-utils
+nilfs-utilxanmod-t2s
 ntfs-3g
 #nvme-cli
 #open-iscsi
@@ -89,7 +87,12 @@ xfsprogs
 xl2tpd
 
 ### On-ISO drivers
-nvidia-dkms
+
+### T2 Drivers and utilities
+apple-t2-audio-config
+bolt
+t2fand
+touchbard
 
 ### blendOS
 # Core packages
@@ -102,6 +105,7 @@ blend-web-store-git
 
 # Fonts
 noto-fonts
+noto-fonts-cjk
 noto-fonts-emoji
 ttf-jetbrains-mono
 
@@ -119,9 +123,9 @@ plymouth-blend
 # OS installation and tweaks
 filesystem-blend
 lsb-release-blend
-blend-inst-git
+blend-inst-t2
 python-yaml
-jade-gui
+jade-gui-t2
 
 # Keyring
 blend-keyring

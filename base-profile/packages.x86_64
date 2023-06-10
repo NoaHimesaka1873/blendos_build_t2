@@ -50,7 +50,7 @@ nbd
 ndisc6
 neovim
 nfs-utils
-nilfs-utilxanmod-t2s
+nilfs-utils
 ntfs-3g
 #nvme-cli
 #open-iscsi
@@ -125,7 +125,7 @@ filesystem-blend
 lsb-release-blend
 blend-inst-t2
 python-yaml
-jade-gui-t2
+jade-gui
 
 # Keyring
 blend-keyring

@@ -14,7 +14,7 @@ dpkg_list = [
     'blend',
     'blend-web-store',
     'blendos-first-setup',
-    'jade-gui-t2'
+    'jade-gui'
 ]
 
 # AUR packages
